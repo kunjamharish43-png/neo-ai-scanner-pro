@@ -1,13 +1,4 @@
-name: Build NEO AI SCANNER PRO APK
-
-on:
-workflow_dispatch:
-push:
-paths:
-- 'neo-ai-scanner-pro.zip'
-- '.github/workflows/android-apk.yml'
-
-jobs:
+name
 build:
 runs-on: ubuntu-latest
 
